@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Hire Me</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary">
+    <div class="container-espacio">
+      <ion-card>
+        <img alt="Deivi" src="assets/icon/deivi.jpg"/>
+        <ion-card-content>
+          <ion-item>
+            <ion-label>First Name:</ion-label>
+            <ion-textarea [readonly]="true" placeholder="Deivi Alexander"></ion-textarea>
+          </ion-item>
+          <ion-item>
+            <ion-label>Last Name:</ion-label>
+            <ion-textarea [readonly]="true" placeholder="Cruz Serrata"></ion-textarea>
+          </ion-item>
+          <ion-item>
+            <ion-label>Birthday:</ion-label>
+            <ion-textarea [readonly]="true" placeholder="March 19th, 2002"></ion-textarea>
+          </ion-item>
+          <ion-item>
+            <ion-label>City:</ion-label>
+            <ion-textarea [readonly]="true" placeholder="Santo Domingo"></ion-textarea>
+          </ion-item>
+          <ion-item>
+            <ion-label>Country:</ion-label>
+            <ion-textarea [readonly]="true" placeholder="Dominic Republic"></ion-textarea>
+          </ion-item>
+          <ion-item>
+            <ion-label>Major:</ion-label>
+            <ion-textarea [readonly]="true" placeholder="Software Devoloper"></ion-textarea>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+      <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+        <ion-fab-button>
+          <ion-icon name="arrow-up-circle"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-list side="top">
+          <a href="https://github.com/Alexandercs19"><ion-fab-button><ion-icon name="logo-github"></ion-icon></ion-fab-button></a>
+          <a href="https://www.instagram.com/serratxz._/?hl=es"><ion-fab-button><ion-icon name="logo-instagram"></ion-icon></ion-fab-button></a>
+          <a href="https://www.linkedin.com/in/alexander-cruz-7789b2236/"><ion-fab-button><ion-icon name="logo-linkedin"></ion-icon></ion-fab-button></a>
+          <a href="https://twitter.com/cruxz_1"><ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button></a>
+        </ion-fab-list>
+      </ion-fab>
+    </div>
+</ion-content>

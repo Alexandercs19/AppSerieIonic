@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+:root{
+    --ion-color-secondary: #1b263b;
+    --ion-color-primary: #212529;
+}
+
+ion-card{
+
+    width: 250px; 
+    position: relative;
+    left: 25px;
+
+}
+
+ion-card.ios{
+    font-size: small;
+    width: 250px; 
+    position: relative;
+    left: 16px;
+
+}
+
+/*
+
+ion-button{
+
+    position: relative;
+    left: 80px;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+ion-card-header.ios {
+    display: flex;
+    flex-flow: column;
+}
+
+ion-card-title.ios{
+
+    font-size: large;
+   
+
+}
+
+ion-card-content.ios{
+
+    flex-direction: row-reverse;
+    flex-flow: row-reverse;
+
+}
+*/

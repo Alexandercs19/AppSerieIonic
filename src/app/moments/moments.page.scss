@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+:root{
+    --ion-color-secondary: #1b263b;
+    --ion-color-primary: #212529;
+}
+
+ion-button{
+    position: relative;
+    left: 22%;
+
+}
+ion-button.md{
+    position: relative;
+    left: 25%;
+
+}
+
+*{
+    font-family: 'Roboto Mono', monospace;
+
+}

@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title style="font-family: 'Roboto Mono', monospace;">Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary">
+  <h1 style="text-align: center;
+      color: whitesmoke;
+      font-size: 40px;
+      font-family: 'Roboto Mono', monospace;
+    ">THE RAIN</h1>
+  <p style="text-align: center;
+      color: whitesmoke;
+      font-size: 18px;
+      font-family: 'Roboto Mono', monospace;
+      position: relative;
+      bottom:10px;
+    ">A Netflix Series</p>
+  <swiper [autoplay]="true" [keyboard]="true" [pagination]="true" [scrollbar]="true" [zoom]="true" effect="coverflow">
+    <ng-template swiperSlide><img src="assets/icon/foto3.jpg" style=
+      "padding:15px;
+      "></ng-template>
+    <ng-template swiperSlide><img src="assets/icon/foto2.jpg" style=
+      "width:270px;
+        height:300px;
+      "></ng-template>
+    <ng-template swiperSlide><img src="assets/icon/fotoportada.jpg" style=
+      "Width:320px;
+      padding: 15px;
+      "></ng-template>
+  </swiper>
+  <h1 style="font-size:22px;
+  font-family: 'Roboto Mono', monospace;
+    position:relative;
+    left:15px
+  ">Let's watch now the trailer!</h1>
+  <iframe width="268" height="213" src="assets/icon/therain.mp4" title="The Rain | Official Trailer [HD] | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ion-content>

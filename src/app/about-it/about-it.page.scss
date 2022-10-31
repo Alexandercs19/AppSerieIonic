@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+    --ion-color-secondary: #1b263b;
+    --ion-color-primary: #212529;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+ion-label {
+
+    color: whitesmoke;
+    text-align: center;
+    padding: 45px;
+}
+
+h1 {
+
+    font-size: xx-large;
+    position: relative;
+    top: 20%;
+
+}
+
+img {
+    padding: 1px;
+    position: relative;
+    top: 5px;
+}
+
+ion-button.ios{
+    padding: 5px 1px;
+    position: absolute;
+    bottom: 45px;
+    left: 195px;
+
+}
+
+ion-button.md{
+    position: absolute;
+    bottom: 40px;
+    left: 205px;
+
+}
+
+.up.ios{
+
+    position: absolute;
+    bottom: 0px ;
+
+}
+
+.up.md{
+
+    padding: auto;
+    position: absolute;
+    bottom: 0px ;
+
+}
